@@ -1,0 +1,16 @@
+Aplicatia Quiz Game este un joc destinat tuturor oamenilor care doresc sa-si testeze cunostiintele de cultura generala.
+Aplicatia contine intrebari din mai multe domenii cum ar fi: Biologie,Geografie, Matematica, dar si o categorie GENERALA, unde sunt intrebari din toate domeniile.
+
+Meniul principal contine 4 optiuni: Start Game, Leaderboard, Instructions si Quit.
+
+In submeniul Start Game intalnim domeniile din care vrem sa primim intrebarile.
+
+In momentul in care incepe jocul, clientul va primi o serie de 10 intrebari cu 4 variante de raspuns si va trebui sa aleaga varianta corecta, trimitand cifra corespunzatoare raspunsului corect.
+Raspunsul trebuie trimis in 10 secunde altfel intrebarea respectiva va fi punctata cu 0.
+
+La finalui celor 10 intrebari va fi afisat scorul final.
+
+In partea de Leaderboard, sunt afisate primele 10 punctaje inregistrate de concurenti.
+
+Have fun!
+
