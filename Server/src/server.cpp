@@ -109,7 +109,7 @@ int Server::AddClient(Client *client){
              return 1;
         }
         else if(n<0) cerr<<"Error while reading...\n";
-
+        memset(buffer,0, sizeof buffer);
         n =  read(client->getSock(),&buffer,length);
         if(n == 0 ){
              cout<<"[SERVER] Client "<<client->getName()<<" has been disconnected..\n"; fflush(stdout);
